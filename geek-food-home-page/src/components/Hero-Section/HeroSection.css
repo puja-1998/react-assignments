@@ -1,0 +1,90 @@
+.heroSection{
+    background-image: url("https://images.unsplash.com/photo-1604014237800-1c9102c219da?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 550px;
+    width: 100vw;   
+}
+/* "https://bnginteriors.com/wp-content/uploads/2023/04/h1_img-4-1024x392.jpg" */
+
+.container{
+    padding: 0 40px;
+    height: 550px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.content h1{
+    font-size: 48px;
+    font-weight: 800;
+}
+.content h1>strong{
+    color: #BE123C;
+}
+.content p{
+    color: #733A00;
+    font-size: 20px;
+}
+.btns{
+    margin-top: 40px;
+    display: flex;
+    
+    gap: 30px;
+}
+.btns .SearchNow, .knowMore{
+    height: 45px;
+    width: 190px;
+    background-color: #E11D48;
+    border-radius: 8px;
+    color: white;
+    border: none;
+}
+
+.knowMore{
+    height: 45px;
+    width: 190px;
+    background-color: white;
+    border-radius: 8px;
+    color: #E87E59;
+    border: none;
+}
+
+.heroSection2{
+    height: 100vh;
+    width: 100vw;
+    margin: 50px 30px 50px 0;
+    display: flex;
+    position: absolute;
+}
+.img{
+    position: relative;
+    top: 60px;
+    left: 70px;
+}
+.img img{
+    height: 500px;
+    width: 600px;
+}
+.heroSection2 .GetInTouchDiv{
+    height: 600px;
+    background-color: #F3F4F6;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    padding: 0 80px 0 150px;
+    text-align: start;
+    gap: 20px;
+}
+.GetInTouchDiv button{
+    height: 45px;
+    width: 190px;
+    background-color: blue;
+    border-radius: 8px;
+    color: white;
+    border: none;
+}
